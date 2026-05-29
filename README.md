@@ -85,7 +85,7 @@ The application communicates with the OpenWeatherMap API using HTTP GET requests
 Example:
 
 ```python
-response = requests.get(BASE_URL, params=params)
+response = requests.get(BASE_URL, params=params, timeout=10)
 ```
 
 This helped in understanding:
